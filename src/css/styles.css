@@ -3,6 +3,7 @@
 
 :root{
     --primary-color:#047aed;
+    --dark-color: #002240;
 }
 /* reset elements */
 * {
@@ -44,6 +45,7 @@ img{
     background-color:var(--primary-color);
     color: #ffffff;
     height: 70px;
+    position: sticky;
 
 }
 
@@ -139,7 +141,35 @@ img{
     font-size: 35px;
 }
 
-.stats .grid h3{
+.stats .grid p{
     font-size: 20px;
     font-weight: bold;
+    color: var(--primary-color);
 }
+
+.cli .grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+
+.cli .grid > *:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+  }
+  
+  /* Footer */
+.footer{
+    color: #ffffff;
+}
+.footer nav li a{
+    color: #ffffff;
+}
+.footer .social a {
+    margin: 0 10px;
+    color: #ffffff;
+  }

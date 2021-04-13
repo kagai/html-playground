@@ -99,7 +99,6 @@
     margin: 4rem;
 }
 
-
 .py-1 {
     padding: 1rem 0;
 }
@@ -117,4 +116,41 @@
 }
 .py-5 {
     padding: 4rem 0;
+}
+
+.lead {
+    font-size: 20px;
+  }
+  /* text sizes */
+  .sm {
+    font-size: 1rem;
+  }
+  
+  .md {
+    font-size: 2rem;
+  }
+  
+  .lg {
+    font-size: 3rem;
+  }
+  
+  .xl {
+    font-size: 4rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-dark,
+.bg-dark
+{
+    background-color: var(--dark-color);
 }
